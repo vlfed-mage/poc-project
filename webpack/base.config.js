@@ -23,7 +23,7 @@ module.exports = {
             },
             {
                 test: /\.(woff(2)?|eot|ttf|otf|svg)$/,
-                type: 'asset/resource',
+                type: 'asset/inline',
             },
         ],
     },
@@ -31,7 +31,6 @@ module.exports = {
         path: path.resolve(__dirname, '..', './build'),
         filename: 'bundle.js',
     },
-    mode: 'development',
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, '..', './src/index.html'),
