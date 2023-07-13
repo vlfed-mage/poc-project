@@ -7,7 +7,7 @@ export const App = () => {
         <>
             <img src={image} alt='' />
             <img src={user} alt='' />
-            <h1>React Typescript boilerplate</h1>
+            <h1>React Typescript boilerplate - {process.env.NODE_ENV}</h1>
         </>
     );
 };
