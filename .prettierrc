@@ -6,6 +6,7 @@
     "singleAttributePerLine": false,
     "bracketSameLine": true,
     "printWidth": 120,
+    "endOfLine": "auto",
     "overrides": [
         {
             "files": ["*.json"],
